@@ -17,7 +17,7 @@ requireDir("./src/models");
 
 //const Product = mongoose.model("Product");
 
-//primeira rota
+//primeira rota criada para abrir as portas
 app.use('/api', require('./src/routes'));
 
 app.listen(3001);

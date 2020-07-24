@@ -19,7 +19,7 @@ const ProductSchema = new mongoose.Schema({
         default: Date.now,
     },
 });
-
+//demostrar as páginas
 ProductSchema.plugin(mongoosePaginate);
 
 mongoose.model('Product', ProductSchema);
